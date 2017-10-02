@@ -14,31 +14,31 @@ void gotoxy( int column, int line )
   }
 int main()
 {
-    int n=1;
-    int m=3;
-    int k=5;
-    int p=7;
+    int wiersz1=1;
+    int wiersz2=3;
+    int wiersz3=5;
+    int wiersz4=7;
     int x= 40;
     int y =1;
     gotoxy(x,y);
-    for( int i = 0; i < n; ++i )
+    for( int i = 0; i < wiersz1; ++i )
 {
    cout<<"*";
 }
 gotoxy(x-1,y+1);
-for( int j = 0; j < m; ++j )
+for( int j = 0; j < wiersz2; ++j )
 {
    cout<<"*";
 
 }
 gotoxy(x-2,y+2);
-for( int d = 0; d < k; ++d )
+for( int d = 0; d < wiersz3; ++d )
 {
    cout<<"*";
 
 }
 gotoxy(x-3,y+3);
-for( int l = 0; l < p; ++l )
+for( int l = 0; l < wiersz4; ++l )
 {
    cout<<"*";
 
